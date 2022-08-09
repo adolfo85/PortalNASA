@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApNasa-Home</title>
+    <link rel="stylesheet" href="../8ProblemaAPI/indexNoticiasStyle.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-uppercase" href="#">Portal-Nasa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./IndexNoticias.html">Noticias</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <img src="../8ProblemaAPI/SRC/Logo apaisado.png" class="img-fluid logoApaisado rounded-circle"
+            alt="logoApaisado">
+    </nav>
+
+
+
+
+</header>
+
+<body>
+
+    <main class="mb-5 h-100">
+
+
+
+        <div class="texto text-center shadow p-3 mb-5 bg-white rounded">
+            <h1>¡Bienvenido a nuestro Portal-NASA!</h1>
+            <p class="fst-italic"> Un lugar donde podrás encontrar las últimas imágenes astronómicas y noticias
+                espaciales.
+            </p>
+
+
+        </div>
+        <!-- En el div container aparecen valores de margenes al inspeccionar que no sé dónde están ni cómo modificar ( a la derecha) -->
+        <div class="container-fluid">
+            <div class="row">
+
+                <div id="contenedorCarrusel" class="col-lg-6">
+
+                    <div id="carouselExampleIndicators" class="carousel slide container-sm mt-5" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                                aria-label="Slide 6"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../8ProblemaAPI/SRC/CARRUSEL1.jpg" class="d-block w-100" alt="foto1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../8ProblemaAPI/SRC/CARRUSEL2.jpg" class="d-block w-100" alt="foto2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../8ProblemaAPI/SRC/CARRUSEL3.jpg" class="d-block w-100" alt="foto3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../8ProblemaAPI/SRC/CARRUSEL4.jpg" class="d-block w-100" alt="foto4">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../8ProblemaAPI/SRC/CARRUSEL5.jpg" class="d-block w-100" alt="foto5">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../8ProblemaAPI/SRC/CARRUSEL6.jpg" class="d-block w-100" alt="foto6">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <div class="card position-relative mx-3 mt-3 col-lg-10">
+                        <div class="card-header border-white">
+                            Carl Sagan
+                        </div>
+                        <div class="card-body">
+                          <blockquote class="blockquote mb-0">
+                          
+                            <footer class="fst-italic">"A veces creo que hay vida en otros planetas, y a veces creo que no. En cualquiera de los dos casos la conclusión es asombrosa."</cite></footer>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      <div class="card position-relative mx-3 mt-3 col-lg-10">
+                        <div class="card-header border-white">
+                            Jorge Luis Borges
+                        </div>
+                        <div class="card-body">
+                          <blockquote class="blockquote mb-0">
+                          
+                            <footer class="fst-italic">"Si viéramos realmente el Universo, tal vez lo entenderíamos."</cite></footer>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      <div class="card position-relative mx-3 mt-3 col-lg-10">
+                        <div class="card-header border-white">
+                            Heinrich Heine
+                        </div>
+                        <div class="card-body">
+                          <blockquote class="blockquote mb-0">
+                          
+                            <footer class="fst-italic">"Si quieres viajar hacia las estrellas, no busques compañía."</cite></footer>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      <div class=" card position-relative mx-3 mt-3 col-lg-10">
+                        <div class="card-header border-white">
+                            Arthur C. Clarke
+                        </div>
+                        <div class="card-body">
+                          <blockquote class="blockquote mb-0">
+                          
+                            <footer class="fst-italic">"Existen dos posibilidades: que estemos solos en el Universo, o que estemos acompañados. Ambas son igualmente aterradoras."</cite></footer>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      <div class="card position-relative mx-3 mt-3 col-lg-10">
+                        <div class="card-header border-white">
+                            Bjørnstjerne Bjørnson
+                        </div>
+                        <div class="card-body">
+                          <blockquote class="blockquote mb-0">
+                          
+                            <footer class="fst-italic">"No te quejes bajo las estrellas sobre la falta de puntos brillantes en tu vida."</cite></footer>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      
+                      
+
+                </div>
+
+                <!-- FINAL DE CARRUSEL -->
+
+            
+
+                <section class="articulos bg-light mt-5 pt-1 col-lg-6">
+
+                    <div id="list-example" class="list-group">
+                        <h2>Acceso a los mejores programas de astronomía</h2>
+                        <a class="list-group-item list-group-item-action" href="#list-item-1">Google Sky</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-2">Stellarium</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-3">Cartes du Ciel</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-4">Celestia</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-5">Space Engine</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-6">Gaia Sky</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-7">Sky-Map.org</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-8">WorldWide Telescope</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-9">Universidad de
+                            Nebraska</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-10">Virtual Moon Atlas</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-11">KStars</a>
+
+                    </div>
+                    <hr>
+                    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0"
+                        class="scrollspy-example" tabindex="0">
+                        <h4 id="list-item-1">Google Sky</h4>
+                        <p>Google tiene su propio modo “planetario” incorporado en Google Earth desde
+                            hace algunos años, Google Sky. Se trata de un modo cielo enfocado a descubrir todo tipo de
+                            astros, constelaciones, galaxias o planetas. Una herramienta que puedes activar desde Google
+                            Earth a partir de versiones iguales o superiores a la 4.2. Puedes descubrir todo el espacio
+                            a través de una interfaz ya conocida y muy práctica.
+                            Si no quieres descargar nada en tu ordenador, Google Sky cuenta con una interfaz online a la
+                            que puedes acceder desde la propia página web de Google Sky y te permitirá dar un paseo por
+                            el espacio. La única condición para usar esta herramienta de los de Mountain View es tener
+                            una buena conexión a Internet.</p>
+                        <h4 id="list-item-2">Stellarium</h4>
+                        <p>Una de las mejores opciones si buscas programas de astronomía es <a class="text-decoration-none" href="http://stellarium.org/">Stellarium</a>, una herramienta
+                            gratuita que puedes instalar en Windows, macOS o Linux. Se trata de un programa que deberás
+                            descargar e instalar y no usa online pero merecerá la pena. Stellarium es una herramienta
+                            gratis, de código abierto y que tiene una base de datos con millones de estrellas. El
+                            programa te permitirá acceder a 600.000 estrellas pero puedes ampliar la colección con una
+                            base de datos “extra” que te permite descargar hasta 117 millones de estrellas en tu
+                            ordenador y tener todo tipo de detalles.
+
+                            Stellarium es un programa muy sencillo de utilizar e intuitivo, pero muy completo con el que
+                            podremos acceder a todo tipo de controles como si tuviésemos un planetario en la habitación.
+                            Una atmósfera realista e incluso un gran zoom para que podamos acercarnos a cada estrella y
+                            observar más detalles sobre la misma.
+
+                            No tiene ningún coste y puedes descargar Stellarium desde su página oficial.</p>
+                        <h4 id="list-item-3">Cartes du Ciel</h4>
+                        <p><a class="text-decoration-none" href="https://www.ap-i.net/skychart//es/start">Cartes du Ciel</a> es una de las mejores opciones de programas de astronomía y está disponible
+                            para Windows, para Mac OS X y para Linux. Es un planetario que no sólo te permite conocer la
+                            posición de los asteroides, los planetas y los cometas sino que te deja preparar cartas
+                            celestes para tus sesiones de astronomía. Podrás elegir todo lo que necesitas o dejar que el
+                            programa, de forma automática, el que use los catálogos que quiera, el tamaño, el color o la
+                            dimensión de cada astro que se muestre.
+
+                            Si buscas uno de los programas de astronomía más completos, Cartes du Ciel tiene todo tipo
+                            de catálogos estelares y opciones y herramientas. Eso sí, no es tan fácil o intuitivo como
+                            puede ser el de Google o Stellarium. Se trata de un software más profesional que nos
+                            permitirá todo tipo de opciones con el control de telescopio o visualizando el campo de
+                            visión con hasta diez oculares, para no perder detalle.</p>
+                        <h4 id="list-item-4">Celestia</h4>
+                        <p><a class="text-decoration-none" href="http://www.shatters.net/celestia/">Celestia</a> nos permite tener una vista 3D en tiempo real del espacio, lo que hace que la
+                            experiencia sea más realista y sofisticada. Es uno de los programas de astronomía más
+                            interesantes ya que es compatible con todo tipo de complementos que nos permiten añadir
+                            funciones o tener acceso a planetas, astros, estrellas, satélites.
+
+                            En este caso, se trata de una opción para todos los públicos: para los curiosos o los
+                            profesionales. El programa es capaz de simular el espacio desde cualquier planeta del
+                            Sistema Solar así que podrás ir viendo todo desde una perspectiva diferente o incluso puedes
+                            hacer viajes entre planetas, simulación e vuelo real a varias velocidades o una localización
+                            automática. Y si quieres tener más detalle, tienes un zoom que permitirá acercarte a lo que
+                            quieres descubrir.</p>
+
+
+                        <h4 id="list-item-5">Space Engine</h4>
+                        <p>Un simulador espacial 3D en tiempo real. <a class="text-decoration-none" href="https://spaceengine.org/">Space</a> Engine es un software que permite que
+                            exploremos el Sistema Solar al completo como si estuviésemos viajando en el espacio en una
+                            nave. Se trata de un programa de astronomía original y entretenido en el que no sólo iremos
+                            conociendo todos los datos reales de las zonas del espacio sino que nos sumergiremos de
+                            lleno en él. Según la propia página del simulador, los objetos reales están presentes si
+                            deseas visitarlos “incluidos los planetas o las lunas de nuestro sistema solar, miles de
+                            estrellas cercanas con exoplanetas recién descubiertos y miles de galaxias que se conocen
+                            actualmente”.
+
+                            Space Engine es un programa de pago, a diferencia de otros de esta lista. Puedes descargarlo
+                            para Windows desde la página web de Steam aunque tiene un coste de unos veinte euros. Eso
+                            sí, es compatible con soporte de realidad virtual y te permitirá una experiencia única si te
+                            gusta la astronomía. Además, la interfaz está disponible en 15 idiomas diferentes y puedes
+                            hacerte una idea de cómo será a través de las imágenes y trailers del simulador.</p>
+                        <h4 id="list-item-6">Gaia Sky</h4>
+                        <p><a class="text-decoration-none" href="https://zah.uni-heidelberg.de/institutes/ari/gaia/outreach/gaiasky/"> Gaia Sky</a> es un programa de astronomía gratuito, de código abierto y con un sistema 3D que
+                            podemos usar con gafas de realidad virtual si queremos sumergirnos de lleno en el espacio.
+                            Te permite acceder a un motor en tiempo real en el que puedes viajar como quieras y
+                            descubrir más de mil millones de estrellas disponibles. Puedes moverte con un modo 360
+                            grados para ver todo lo que hay a tu alrededor y es compatible con mandos y controles para
+                            darte más libertad de movimiento o para descubrir todo lo que te interese. Otra de las
+                            ventajas y opciones interesantes es que cuenta con un modo de opción proyección planetario y
+                            con posibilidad de grabar o reproducir las rutas que hagas por todas las galaxias.
+
+                            Podrás explorar superficies, es gratuito y tiene filtros en tiempo real para elegir las
+                            coordenadas de todo tipo, la distancia o la magnitud. Además, está traducido completamente a
+                            español pero también disponible en catalán, inglés, alemán o francés. Una de las opciones
+                            más recomendadas y gratuitas.</p>
+                        <h4 id="list-item-7">Sky-Map.org</h4>
+                        <p><a class="text-decoration-none" href="http://www.sky-map.org/">Sky Map</a> es otro programa de astronomía en versión online que no tendremos que descargar nada
+                            pero que tiene un catálogo muy completo de estrellas. Además, permite subir imágenes
+                            astronómicas que son aprobadas y se añaden a la base de datos online. Cuenta con imágenes de
+                            diversas fuentes internacionales aunque el punto negativo de esta opción es que no te ofrece
+                            información sino que simplemente podrás disfrutar de imágenes y fotografías pero no de
+                            datos. Es menos completo que otros de esta lista pero es interesante si buscas algo básico y
+                            sin instalar nada.
+                        </p>
+                        <h4 id="list-item-8">WorldWide Telescope</h4>
+                        <p>Una de las mejores opciones de astronomía para principiantes es <a class="text-decoration-none" href="http://www.worldwidetelescope.org/webclient/">WorldWide Telescope</a> con una
+                            herramienta online en la que no necesitarás instalar nada en tu ordenador. Tiene una amplia
+                            base de datos con información, fotografía o vídeos de galaxias, constelaciones, estrellas o
+                            planetas. Puedes hacer un tour interactivo por misiones que han hecho las principales
+                            agencias espaciales o puedes explorar en forma 3D algunos de los planetas del Sistema Solar.
+                            Es una herramienta muy básica y fácil de utilizar así que es ideal para curiosos o para los
+                            estudiantes.</p>
+                        <h4 id="list-item-9">Universidad de Nebraska</h4>
+                        <p>La página web de la <a class="text-decoration-none" href="http://astro.unl.edu/animationsLinks.html">Universidad de Nebraska</a> no es uno de los mejores programas de astronomía
+                            como tal pero es una enciclopedia ideal para enseñar sobre la materia y donde encontrarás
+                            todo tipo de información sobre ella. Encontrarás simuladores que puedes usar online sin
+                            necesidad de descargar nada pero también encontrarás enciclopedias, respuestas o glosarios
+                            con vocabulario ideal para ir aprendiendo más sobre los astros.</p>
+                        <h4 id="list-item-10">Virtual Moon Atlas</h4>
+                        <p>Se trata de un programa que podemos descargar de forma totalmente gratuita desde la web
+                            oficial de proyecto en este mismo <a class="text-decoration-none" href="http://ap-i.net/avl/en/download">enlace</a> y que como su propio nombre indica, es un atlas
+                            virtual del satélite de La Tierra. Con Virtual Moon Atlas es posible observar y estudiar la
+                            superficie de la Luna, proporciona imágenes de gran calidad sobre la superficie lunar e
+                            incluye todo tipo de información sobre el satélite para los amantes de la astronomía en
+                            general y de la Luna en particular.</p>
+                        <h4 id="list-item-11">KStars</h4>
+                        <p>Se trata de un software de astronomía multiplataforma de código abierto y gratuito que nos
+                            ofrece un simulación gráfica muy precisa del cielo nocturno desde cualquier lugar de nuestro
+                            planeta y en cualquier fecha y hora. Permite la visualización de hasta 100 millones de
+                            estrellas, todo tipo de objetos en el cielo profundo, todos y cada uno de los planetas, el
+                            Sol, la Luna, miles de cometas, asteroides, supernovas y satélites. Una herramienta
+                            especialmente útil para profesores y alumnos que admite simulaciones para ver ciertos
+                            fenómenos que suceden en largos periodos de tiempo. Descargar <a class="text-decoration-none" href="https://edu.kde.org/kstars/?site_locale=es#download">KStars</a>.
+
+                        </p>
+                    </div>
+
+                
+                </section>
+            </div>
+
+
+
+        </div>
+        <!-- CARRUSEL -->
+
+        
+
+    </main>
+
+
+
+
+
+
+
+
+    <!-- footer: -->
+    <footer class="mt-5">
+
+
+
+        <div class="me-5 d-none d-lg-block"></div>
+        <!-- Left -->
+
+
+        <!-- Section: Links  -->
+        <section class="bg-dark text-white pt-1 mt-md-5">
+            <div class="container text-center text-md-start mt-4">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+
+                        <img src="..//8ProblemaAPI/SRC/Portal-Nasa.png" class="logo img-thumbnail rounded-circle"
+                            alt="logo">
+
+                    </div>
+                    <!-- Grid column -->
+
+
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Enlaces de interés
+                        </h6>
+                        <p>
+                            <a href="https://www.nasa.gov/" class="text-reset text-decoration-none">NASA</a>
+                        </p>
+                        <p>
+                            <a href="https://www.youtube.com/c/ElRobotdePlaton"
+                                class="text-reset text-decoration-none">El
+                                robot de Platón</a>
+                        </p>
+                        <p>
+                            <a href="http://www.astrotuc.com.ar/" class="text-reset text-decoration-none">Observatorio
+                                astronómico Ampimpa</a>
+                        </p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contacto
+                        </h6>
+                        <p><i class="fas fa-envelope me-3"></i>
+                            adolfodeboeck@gmail.com.com
+                        </p>
+                        <p><i class="fas fa-home me-3 "></i>S.M.T, Tucumán, Argentina</p>
+
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2022
+            <a class=" text-reset text-decoration-none fw-bold" href="https://mdbootstrap.com/">Desarrollado por A. De
+                Boeck</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <script src="../8ProblemaAPI/IndexNoticiasJS.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
